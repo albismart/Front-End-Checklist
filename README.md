@@ -86,14 +86,14 @@ Some resources possess an emoticon to help you understand which type of content 
 
 *The next 2 meta tags (Charset and Viewport) need to come first in the head.*
 
-* [ ] **Charset:** ![High][high_img] The charset (UTF-8) is declared correctly.
+* [x] **Charset:** ![High][high_img] The charset (UTF-8) is declared correctly.
 
 ```html
 <!-- Set character encoding for the document -->
 <meta charset="utf-8">
 ```
 
-* [ ] **Viewport:** ![High][high_img] The viewport is declared correctly.
+* [x] **Viewport:** ![High][high_img] The viewport is declared correctly.
 
 ```html
 <!-- Viewport for responsive web design -->
@@ -119,7 +119,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > * 📖 [Meta Description - HTML - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description)
 
-* [ ] **Favicons:** ![Medium][medium_img] Each favicon has been created and displays correctly. If you have only a `favicon.ico`, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, **PNG format is recommended** over `.ico` format (dimensions: 32x32px).
+* [x] **Favicons:** ![Medium][medium_img] Each favicon has been created and displays correctly. If you have only a `favicon.ico`, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, **PNG format is recommended** over `.ico` format (dimensions: 32x32px).
 
 ```html
 <!-- Standard favicon -->
@@ -188,7 +188,7 @@ Minimum required xml markup for the `browserconfig.xml` file is as follows:
 
 ### HTML tags
 
-* [ ] **Language attribute:** ![High][high_img] The `lang` attribute of your website is specified and related to the language of the current page.
+* [x] **Language attribute:** ![High][high_img] The `lang` attribute of your website is specified and related to the language of the current page.
 
 ```html
 <html lang="en">
